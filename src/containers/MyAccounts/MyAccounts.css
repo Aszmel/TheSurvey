@@ -1,0 +1,214 @@
+/* This is the corresponding css file for myAccount.html */
+
+.logo,
+.text {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  border-bottom: solid rgb(153, 153, 153, 0.2);
+}
+
+.signup {
+  display: flex;
+  justify-content: flex-end;
+}
+#signUpButton {
+  background-color: #7fbb00;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: -50px;
+}
+
+#signUpButton:hover {
+  background-color: #6c990a;
+}
+
+.theLinks {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.bottomText {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.personalInfo {
+  display: flex;
+  justify-content: flex-baseline;
+}
+
+.manageAccount {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 100px;
+}
+
+.surveysTitle {
+  margin-left: 120px;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.manageInfo {
+  display: flex;
+  justify-content: last baseline;
+}
+.survey {
+  font-size: 2rem;
+}
+.component {
+  background-color: rgb(240, 240, 240);
+}
+
+.theLinks {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  letter-spacing: 2px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(3, 172, 3);
+}
+
+.linksTitle {
+  font-size: 1.5rem;
+}
+
+.settingsTitle img {
+  max-width: 4vw;
+  max-height: 4vw;
+  width: 100%;
+  height: 100%;
+  margin-left: 3vw;
+}
+.settingsTitle span {
+  font-size: 2vw;
+  font-weight: 900;
+  padding: 2vw 1.3vw;
+}
+.changeInfoContainer {
+  padding: 2vw 0;
+}
+.changeInfo {
+  margin-left: 6vw;
+  margin-bottom: 1.5vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+.changeInfo div img,
+.manageInfo div img {
+  width: 2vw;
+  height: auto;
+  margin-right: 1vw;
+}
+.changeInfo span {
+  font-size: 1.2vw;
+}
+.changeInfo input {
+  padding-left: 1vw;
+  border: 0;
+  border-bottom: 0.2vw solid #7fbb00;
+  font-size: 1vw;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+}
+.infoDescription span {
+  font-size: 1.4vw;
+  font-weight: 900;
+  padding-right: 0.7vw;
+}
+.changeButton span {
+  font-size: 0.9vw;
+  letter-spacing: 0.06vw;
+  padding: 0.4vw;
+  margin-left: 4vw;
+  color: #ffffff;
+  border-radius: 0.25vw;
+  background: #7fbb00;
+  cursor: pointer;
+  transition: background 0.15s ease-in-out;
+}
+
+.changeButton span:hover {
+  background: #75a902;
+}
+.manageInfo {
+  margin-left: 6vw;
+  margin-bottom: 1vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 6vw;
+}
+.manageInfo div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 1.5vw;
+}
+.manageSpan {
+  font-size: 1.4vw;
+  font-weight: 900;
+  padding-right: 0.7vw;
+  padding-bottom: 1vw;
+}
+.manageInfo div input {
+  padding: 0 1vw;
+  border: 0;
+  border-bottom: 0.2vw solid #7fbb00;
+  font-size: 1.2vw;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+}
+.warning {
+  font-size: 1.2vw;
+  color: #ff1900;
+}
+.deleteAccButton {
+  padding-right: 0;
+  font-size: 0.9vw;
+  letter-spacing: 0.06vw;
+  padding: 0.4vw;
+  margin-left: 4vw;
+  color: #ffffff;
+  border-radius: 0.25vw;
+  background: #ff1900;
+  cursor: pointer;
+  transition: background 0.15s ease-in-out;
+}
+.deleteAccButton:hover {
+  background: #be1578;
+}

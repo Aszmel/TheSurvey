@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import MyAccounts from "../containers/MyAccounts/MyAccounts";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-
+        <MyAccounts />
       </div>
     );
   }
