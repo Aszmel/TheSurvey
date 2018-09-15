@@ -5,7 +5,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+<<<<<<< HEAD
         <MyAccounts />
+=======
+>>>>>>> upstream/master
       </div>
     );
   }
