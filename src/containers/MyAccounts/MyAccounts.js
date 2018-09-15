@@ -309,7 +309,7 @@ const MyAccounts = () => {
         <div className="links">
           <div className="leftLinks">
             <div className="linksTitle">
-              <span>COMMUNITY:</span>
+              <span>COMMUNITY</span>
             </div>
             <div className="theLinks">
               <a href="https://zerotomastery.io">Community Website</a>
@@ -327,7 +327,7 @@ const MyAccounts = () => {
           </div>
           <div className="middleText">
             <div className="initiative">
-              <span>An Initiative Of :</span>
+              <span>An Initiative Of</span>
             </div>
             <div className="ztmLogo">
               {/* <img
