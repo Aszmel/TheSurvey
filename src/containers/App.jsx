@@ -4,11 +4,8 @@ import MyAccounts from "../containers/MyAccounts/MyAccounts";
 class App extends Component {
   render() {
     return (
-      <div className="App">
-<<<<<<< HEAD
-        <MyAccounts />
-=======
->>>>>>> upstream/master
+      <div>
+        <div className="App" />;<MyAccounts />
       </div>
     );
   }
