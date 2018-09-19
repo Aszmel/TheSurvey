@@ -4,6 +4,7 @@
 .text {
   display: flex;
   justify-content: center;
+  margin-top: -20px;
 }
 
 .navbar {
@@ -46,7 +47,9 @@
 }
 .personalInfo {
   display: flex;
-  justify-content: flex-baseline;
+  justify-content: flex-start;
+  margin-left: 100px;
+  margin-top: 40px;
 }
 
 .manageAccount {
