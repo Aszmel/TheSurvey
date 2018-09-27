@@ -1,10 +1,9 @@
 /* This is the corresponding css file for myAccount.html */
 
-.logo,
-.text {
+.logo, .text {
   display: flex;
   justify-content: center;
-  margin-top: -20px;
+  margin-top: -10px;
 }
 
 .navbar {
@@ -45,6 +44,7 @@
   justify-content: center;
   margin-top: 40px;
 }
+
 .personalInfo {
   display: flex;
   justify-content: flex-start;
@@ -68,9 +68,11 @@
   display: flex;
   justify-content: last baseline;
 }
+
 .survey {
   font-size: 2rem;
 }
+
 .component {
   background-color: rgb(240, 240, 240);
 }
@@ -112,14 +114,17 @@ a:hover {
   height: 100%;
   margin-left: 3vw;
 }
+
 .settingsTitle span {
   font-size: 2vw;
   font-weight: 900;
   padding: 2vw 1.3vw;
 }
+
 .changeInfoContainer {
   padding: 2vw 0;
 }
+
 .changeInfo {
   margin-left: 6vw;
   margin-bottom: 1.5vw;
@@ -129,15 +134,17 @@ a:hover {
   align-items: center;
   justify-content: flex-start;
 }
-.changeInfo div img,
-.manageInfo div img {
+
+.changeInfo div img, .manageInfo div img {
   width: 2vw;
   height: auto;
   margin-right: 1vw;
 }
+
 .changeInfo span {
   font-size: 1.2vw;
 }
+
 .changeInfo input {
   padding-left: 1vw;
   border: 0;
@@ -146,11 +153,13 @@ a:hover {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
 }
+
 .infoDescription span {
   font-size: 1.4vw;
   font-weight: 900;
   padding-right: 0.7vw;
 }
+
 .changeButton span {
   font-size: 0.9vw;
   letter-spacing: 0.06vw;
@@ -166,6 +175,7 @@ a:hover {
 .changeButton span:hover {
   background: #75a902;
 }
+
 .manageInfo {
   margin-left: 6vw;
   margin-bottom: 1vw;
@@ -176,6 +186,7 @@ a:hover {
   justify-content: center;
   margin-bottom: 6vw;
 }
+
 .manageInfo div {
   display: flex;
   flex-direction: row;
@@ -184,12 +195,14 @@ a:hover {
   justify-content: flex-start;
   margin-bottom: 1.5vw;
 }
+
 .manageSpan {
   font-size: 1.4vw;
   font-weight: 900;
   padding-right: 0.7vw;
   padding-bottom: 1vw;
 }
+
 .manageInfo div input {
   padding: 0 1vw;
   border: 0;
@@ -198,10 +211,12 @@ a:hover {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
 }
+
 .warning {
   font-size: 1.2vw;
   color: #ff1900;
 }
+
 .deleteAccButton {
   padding-right: 0;
   font-size: 0.9vw;
@@ -214,6 +229,7 @@ a:hover {
   cursor: pointer;
   transition: background 0.15s ease-in-out;
 }
+
 .deleteAccButton:hover {
   background: #be1578;
 }
