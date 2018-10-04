@@ -168,7 +168,7 @@ const MyAccounts = () => {
               <span>An Initiative Of</span>
             </div>
             <div className="ztmLogo">
-              <img src={ztm} width="200" height="200" />
+              <img src={ztm} style={{ width: "150px" }} />
             </div>
           </div>
           <div className="rightLinks">

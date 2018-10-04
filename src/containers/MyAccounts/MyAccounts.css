@@ -8,6 +8,10 @@
 
 .navbar {
   border-bottom: solid rgb(153, 153, 153, 0.2);
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: space-between;
 }
 
 .signup {
@@ -23,7 +27,7 @@
   padding: 10px 15px;
   border-radius: 10px;
   margin-bottom: 20px;
-  margin-top: -50px;
+  margin-top: 0px;
   outline: none;
 }
 
@@ -59,6 +63,7 @@
 }
 
 .surveysTitle {
+  margin-top: 50px;
   margin-left: 120px;
   font-weight: bold;
   font-size: 1.3rem;
@@ -86,6 +91,8 @@
 .links {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex: 1;
 }
 
 .footer {
@@ -233,3 +240,5 @@ a:hover {
 .deleteAccButton:hover {
   background: #be1578;
 }
+
+.ztmLogo {}
