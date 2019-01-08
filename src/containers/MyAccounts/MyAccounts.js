@@ -1,12 +1,12 @@
 import React from "react";
 import "./MyAccounts.css";
-import ztm from "./ZTM.jpg";
-import email from "./email.svg";
-import logo from "./logo.svg";
-import username from "./username.svg";
-import avatar from "./avatar.svg";
-import password from "./password.svg";
-import cancel from "./cancel.svg";
+import ztm from "../../svg/ZTM.jpg";
+import email from "../../svg/email.svg";
+import logo from "../../svg/logo.svg";
+import username from "../../svg/username.svg";
+import avatar from "../../svg/avatar.svg";
+import password from "../../svg/password.svg";
+import cancel from "../../svg/cancel.svg";
 
 const MyAccounts = () => {
   return (
